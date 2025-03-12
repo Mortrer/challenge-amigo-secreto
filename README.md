@@ -29,7 +29,7 @@ assets/ → Imágenes del proyecto.
 
 Clonar el repositorio:
 
-git clone https://github.com/tuusuario/amigo-secreto.git
+git clone https://github.com/tuusuario/amigo-secreto.git](https://github.com/Mortrer/challenge-amigo-secreto.git
 
 Abrir index.html en el navegador.
 
