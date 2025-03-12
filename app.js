@@ -20,16 +20,21 @@ function agregarAmigo() {
     li.textContent = amigo;
     document.getElementById("listaAmigos").appendChild(li);
     document.getElementById("amigo").value = "";
+    //focus al input
+    document.getElementById("amigo").focus();
 }
 
 function sortearAmigo() {
+
     aleatorio = Math.floor(Math.random() * nombres.length);
     amigoSelect = nombres[aleatorio];
     console.log(amigoSelect);
     console.log(`El amigo secreto es: ${amigoSelect}`);
+
     const li = document.createElement("li");
     li.textContent = amigoSelect;
     document.getElementById("resultado").appendChild(li);
+
 }
 
 function reinicio() {
